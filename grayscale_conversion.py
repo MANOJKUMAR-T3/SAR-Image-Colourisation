@@ -11,8 +11,8 @@ def convert_to_grayscale(image_path, save_path):
         print(f"Failed to convert {image_path}: {e}")
 
 
-input_dir = r"  "#PATH TO DIRECTORY(COLOURIZED IMAGES)
-output_dir = r"  "#PATH TO DIRECTORY(SAR IMAGES)
+input_dir = r"  "#PATH TO THE DIRECTORY(COLOURIZED IMAGES)
+output_dir = r"  "#PATH TO THE DIRECTORY(SAR IMAGES)
 
 for root, dirs, files in os.walk(input_dir):
     for filename in files:
