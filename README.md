@@ -1,7 +1,7 @@
-# SAR Image Colorization
+# SAR Image Colourisation
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-orange.svg)](https://pytorch.org/)
-[![GitHub Stars](https://img.shields.io/github/stars/MANOJKUMAR-T3/SAR-IMAGE-COLOURIZATION.svg)](https://github.com/MANOJKUMAR-T3/SAR-IMAGE-COLOURIZATION/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/MANOJKUMAR-T3/SAR-Image-Colourisation.svg)](https://github.com/MANOJKUMAR-T3/SAR-Image-Colourisation/stargazers)
 
 SAR (Synthetic Aperture Radar) image colorization using U-Net architecture with ResNet encoder in PyTorch. This project converts grayscale SAR images to RGB format for learning image-to-image translation techniques.
 
