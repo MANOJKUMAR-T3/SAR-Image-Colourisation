@@ -118,8 +118,8 @@ transform = transforms.Compose([
 ])
 
 #Path to inputs
-grayscale_dir = r"   "#PATH TO DIRECTORY(SAR IMAGES) 
-color_dir = r"  "#PATH TO DIRECTORY(CORRESPONDING COLOURISED IMAGES)
+grayscale_dir = r"   "#PATH TO THE DIRECTORY(SAR IMAGES) 
+color_dir = r"  "#PATH TO THE DIRECTORY(CORRESPONDING COLOURISED IMAGES)
 print(f"Grayscale directory: {grayscale_dir}")
 print(f"Color directory: {color_dir}")
 
