@@ -81,4 +81,5 @@ with torch.no_grad():
         save_image(output, output_image_path)
         print(f"Colorized image saved to {output_image_path}")
 
+
 print("Inference completed and colorized images saved.")
