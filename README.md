@@ -166,6 +166,9 @@ Contributions are welcome! To contribute:
 
 This project is available for educational and research purposes. Please ensure you comply with any applicable terms when using this code.
 
+```bibtex
+```
+
 ## Contact & Support
 
 - **Issues**: [GitHub Issues](https://github.com/username/SAR-IMAGE-COLOURIZATION/issues)
