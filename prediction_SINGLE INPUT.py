@@ -60,14 +60,14 @@ def load_single_grayscale_image(image_path):
     image = transform(Image.open(image_path).convert('L')).unsqueeze(0)
     return image
 
-test_image_path = r" "#PATH TO INPUT SAR IMAGE
+test_image_path = r" "#PATH TO THE INPUT SAR IMAGE
 if not os.path.exists(test_image_path):
     raise FileNotFoundError(f"Test image not found at: {test_image_path}")
 
 test_image = load_single_grayscale_image(test_image_path)
 
 #To save 
-output_dir = r"  "#PATH OF DIRECTORY TO SAVE COLOURISED IMAGES
+output_dir = r"  "#PATH OF THE DIRECTORY TO SAVE COLOURISED IMAGES
 os.makedirs(output_dir, exist_ok=True)
 
 with torch.no_grad():
